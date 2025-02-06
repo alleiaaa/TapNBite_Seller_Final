@@ -33,8 +33,8 @@ public class StoreSetting extends AppCompatActivity {
         saveChangesButton = findViewById(R.id.saveChangesButton);
 
         String currentStoreName = "Yumyum";
-        String currentStoreLocation = "123 Main Street, City";
-        String currentStoreManager = "John Doe";
+        String currentStoreLocation = "Canteen What";
+        String currentStoreManager = "Mang Kanor";
         String currentContactNumber = "+1234567890";
 
         storeNameDisplay.setText(currentStoreName);
