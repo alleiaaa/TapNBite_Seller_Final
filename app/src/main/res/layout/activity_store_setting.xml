@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_2.0"
+    tools:context=".StoreSetting">
+
+    <!-- Header -->
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/ic_bluetop"
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp">
+
+        <!-- Back Button -->
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="goBack"
+            app:srcCompat="@drawable/ic_goback" />
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/nav_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/atyp_medium"
+            android:text="Store Settings"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="17sp" />
+    </RelativeLayout>
+
+    <!-- Current Store Details (Read-Only) -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/currentStoreDetailsCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Store Name Display -->
+            <TextView
+                android:id="@+id/storeNameDisplay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yumyum"
+                android:textColor="#404040"
+                android:fontFamily="@font/atyp_semi_bold"
+                android:textSize="22sp"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Store Location Display -->
+            <TextView
+                android:id="@+id/storeLocationDisplay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="123 Main Street, City"
+                android:textColor="#404040"
+                android:fontFamily="@font/atyp_semi_bold"
+                android:textSize="18sp"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Store Manager Display -->
+            <TextView
+                android:id="@+id/storeManagerDisplay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="John Doe"
+                android:textColor="#404040"
+                android:fontFamily="@font/atyp_semi_bold"
+                android:textSize="18sp"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Contact Number Display -->
+            <TextView
+                android:id="@+id/contactNumberDisplay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+1234567890"
+                android:textColor="#404040"
+                android:fontFamily="@font/atyp_semi_bold"
+                android:textSize="18sp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Editable Store Details -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/storeDetailsCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/currentStoreDetailsCard"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/storeNameLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Store Name"
+                android:textColor="#404040"
+                android:fontFamily="@font/atyp_medium"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/storeNameInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter store name"
+                android:fontFamily="@font/atyp_semi_bold"
+                android:textSize="18sp"
+                android:layout_marginTop="8dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#E0E0E0"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/storeLocationLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Store Location"
+                android:textColor="#404040"
+                android:fontFamily="@font/atyp_medium"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/storeLocationInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter store location"
+                android:fontFamily="@font/atyp_semi_bold"
+                android:textSize="18sp"
+                android:layout_marginTop="8dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#E0E0E0"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/storeManagerLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Store Manager"
+                android:textColor="#404040"
+                android:fontFamily="@font/atyp_medium"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/storeManagerInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter store manager name"
+                android:fontFamily="@font/atyp_semi_bold"
+                android:textSize="18sp"
+                android:layout_marginTop="8dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#E0E0E0"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/contactNumberLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact Number"
+                android:textColor="#404040"
+                android:fontFamily="@font/atyp_medium"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/contactNumberInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter contact number"
+                android:fontFamily="@font/atyp_semi_bold"
+                android:textSize="18sp"
+                android:layout_marginTop="8dp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Footer -->
+    <Button
+        android:id="@+id/saveChangesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-6dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/primary"
+        android:fontFamily="@font/atyp_medium"
+        android:padding="20dp"
+        android:text="SAVE CHANGES"
+        android:textColor="@android:color/white"
+        app:cornerRadius="0dp" />
+</RelativeLayout>

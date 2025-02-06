@@ -1,3 +1,36 @@
 <resources>
     <string name="app_name">TapNBite Seller</string>
+    <string name="privacy_header">This Privacy Policy explains how <b>TapNBite</b> collects, uses, and protects your personal information</string>
+    <string name="data_body">TapNBite collects seller data, such as menu information and sales records, to support efficient order processing and inventory management. This information is used exclusively within the platform to optimize app functionality and provide analytics for better service.</string>
+    <string name="security_body">Seller data is encrypted and securely stored. Access to this data is limited to authorized personnel, and sellers are required to maintain the confidentiality of their login credentials. TapNBite ensures data privacy but encourages sellers to report any security concerns immediately.</string>
+    <string name="operations_body">Sales trends, menu availability, and inventory data are used to generate insights that help sellers improve service efficiency. Sellers can view and update this information through their dashboard. TapNBite does not share seller data externally unless legally mandated.</string>
+    <string name="compliance_body">Sellers are responsible for adhering to TapNBite’s operational guidelines and applicable institutional policies. Any misuse of the platform or violations of these policies will result in an account review, and necessary actions may be taken to address non-compliance.</string>
+
+    <string name="welcome_msg">Welcome to <b>TapNBite!</b> By using the app, you agree to these Terms and Conditions. Please read them carefully to ensure a clear understanding of your rights and responsibilities while using the platform.</string>
+    <string name="seller_access">Canteen staff must register as sellers on TapNBite using verified credentials provided by their institution. Each seller is responsible for managing their account and ensuring proper use of the TapNBite dashboard.\n\nUnauthorized sharing of login credentials is prohibited and may result in account suspension.</string>
+    <string name="order_mgmt">Sellers are required to promptly prepare and manage orders as notified by the app. Updates to menu availability and inventory must be made in real time to avoid order discrepancies. TapNBite may penalize repeated instances of delayed or incorrect order fulfillment.</string>
+    <string name="payments">All transactions are processed using Pellets. Sellers must verify payment confirmation before marking orders as complete. Any disputes regarding payments or incomplete orders should be reported through TapNBite’s support system for resolution.</string>
+    <string name="ops_flex">Sellers may adjust operating hours, menus, or pricing based on real-time conditions, such as supply shortages. However, users must be informed of any changes via the app to ensure transparency and maintain trust.</string>
+
+    <string name="seller_help_welcome">Welcome to the TapNBite Seller Help Center! This resource is designed to assist sellers in navigating and maximizing their experience with the TapNBite app. Below, you’ll find guides, troubleshooting tips, and contact options to address your needs.</string>
+    <string name="seller_account_setup">Once your account is active, you can upload product details, including images, descriptions, prices, and availability, through the seller dashboard.</string>
+    <string name="seller_order_management">The seller dashboard provides a real-time view of incoming orders. You can mark orders as “Preparing” or “Ready for Pick-Up” to keep customers updated.</string>
+    <string name="seller_menu_updates">Yes, you can modify menu items, prices, and inventory levels anytime via the dashboard to ensure accuracy and availability.</string>
+    <string name="seller_inventory_insights">By analyzing order trends, TapNBite provides insights to help sellers manage inventory effectively, reducing overproduction and waste.</string>
+    <string name="seller_payments">Payments from customers are processed securely through the app. Funds are credited to your seller account, which you can track and withdraw through the dashboard.</string>
+    <string name="seller_sales_analytics">Yes, the seller dashboard includes sales analytics, helping you track popular items, peak hours, and customer trends.</string>
+    <string name="seller_technical_support">For technical support, contact the TapNBite support team via the in-app help section. Provide a detailed description of the issue for faster resolution.</string>
+    <string name="seller_fraud_prevention">If you suspect fraudulent activity, notify TapNBite support immediately. The team will investigate and take appropriate action to secure your account.</string>
+    <string name="seller_responsibilities"> -Providing accurate product descriptions and pricing. -Ensuring timely preparation and pickup of orders. -Maintaining food safety and quality standards.</string>
+    <string name="seller_transaction_policy">To ensure security and consistency, all transactions must be processed through the TapNBite platform.</string>
+    <string name="seller_email_support"><b>Email Support:</b>  Reach out to support@tapnbite.com for detailed concerns.                                                                               </string>
+    <string name="edit_name">Edit Name</string>
+    <string name="edit_price">Edit Price</string>
+    <string name="delete_product">Delete Product</string>
+
+    <string-array name="categories">
+        <item>Rice Meals</item>
+        <item>Drinks</item>
+        <item>Snacks</item>
+    </string-array>
 </resources>

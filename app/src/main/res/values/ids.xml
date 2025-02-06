@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="privacypolicy" type="id" />
+    <item name="terms" type="id" />
+    <item name="logout" type="id" />
+    <item name="helpcenter" type="id" />
+    <item name="informationsLabel" type="id" />
+    <item name="storesettingButton" type="id" />
+    <item name="imageView2" type="id" />
+    <item name="textView" type="id" />
+    <item name="imageView" type="id" />
+    <item name="accountLabel" type="id" />
+    <item name="storeStatusCard" type="id" />
+    <item name="openhoursbutton" type="id" />
+    <item name="changebutton" type="id" />
+    <item name="times" type="id" />
+    <item name="operatingHours" type="id" />
+    <item name="currentlyopen" type="id" />
+    <item name="storeStatus" type="id" />
+    <item name="settingsTitle" type="id" />
+</resources>
